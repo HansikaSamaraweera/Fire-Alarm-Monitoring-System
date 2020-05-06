@@ -1,0 +1,37 @@
+Installation guide
+
+Rest API
+
+1. Clone the file and open it in IntelliJ IDEA software.
+2. Install maven dependency.
+3. Go to src/main/resources/application.properties and change spring.datasource.password to your mySQL database password.
+4. Run RestApplication.
+
+Sensor App
+
+1. Clone the file and open it in NetBeans software.
+2. Download org.json.jar file to a folder.
+3. Right click on project and go to properties, then go to libraries. Click on add JAR file button.
+4. Select org.json.jar then press okay.
+5. Run AlarmSensorServer.java file.
+6. Run AlarmMonitor.java file.
+
+ReactJS
+
+1. Clone the file and open it in WebStorm.
+2. Run npm install in command line.
+3. Run npm start.
+4. Open web browser and go to http://localhost:3000/
+
+RMI Server
+
+1. Clone the file and open it in NetBeans.
+2. Right click on project and go to properties, then go to libraries. Click on add JAR file button.
+3. Select org.json.jar then press okay.
+4. Run LoginServer.java.
+5. Run Login.java.
+6. Login username = admin, password = admin
+
+
+
+

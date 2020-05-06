@@ -257,7 +257,7 @@ public class Login extends javax.swing.JFrame {
                                 this.table.setModel(dmodel);
                                 line = br.readLine();  
                                       }
-                                  else
+                                  else if (ob.coLevel < 5.00 && ob.smokeLevel < 5.00)
                                    dmodel.addRow(new Object[]{ob.getSensorId(),ob.getFloorNo(),ob.getRoomNo(),ob.getCoLevel(),ob.getSmokeLevel(),"Active"});
 
                                 this.table.setModel(dmodel);

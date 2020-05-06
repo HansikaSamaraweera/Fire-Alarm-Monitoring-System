@@ -24,8 +24,8 @@ public class AlarmSensorServer extends UnicastRemoteObject implements Temperatur
 
 	//Set CO2 and Smoke in the constructor
 	public AlarmSensorServer() throws java.rmi.RemoteException {
-		CO2 = 4.0;
-                Smoke = 5.0;
+		CO2 = 2.0;
+                Smoke = 3.0;
 	}
 	
 	//This method will return C02 level
